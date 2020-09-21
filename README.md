@@ -50,7 +50,7 @@ Ensure you are in the `list-channels-bot` directory from before.
 TOKEN=your_token_here node index.js
 ```
 
-## Command
+## Commands
 
 **!list** - Create a list of channels in the server
 
@@ -59,3 +59,7 @@ Enjoy the bot :)
 ## License
 
 This bot is licensed under the [MIT License](LICENSE)
+
+## Credits
+
+Thanks to [brockbreacher](https://github.com/brockbreacher) for the idea for this bot.
