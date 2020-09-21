@@ -1,0 +1,11 @@
+{
+  "name": "list-channels-bot",
+  "version": "1.0.0",
+  "description": "a tiny little bot to list channels in a server",
+  "main": "index.js",
+  "author": "Yamboy1 <yammboyd1@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^12.3.1"
+  }
+}
