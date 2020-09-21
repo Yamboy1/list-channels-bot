@@ -1,5 +1,7 @@
 # list-channels-bot
 
+*View this on [Github Packages](https://github.com/users/Yamboy1/packages/container/package/list-channels-bot)*
+
 A very simple discord bot to list channels in a server
 
 ## Installation
