@@ -4,6 +4,8 @@ A very simple discord bot to list channels in a server
 
 ## Installation
 
+Obtain your bot token from https://discord.com/developers/applications. This will be needed when running the bot.
+
 ### Using [Podman](https://podman.io/) (recommended)
 
 ```bash
@@ -31,13 +33,13 @@ yarn
 ### Podman
 
 ```bash
-podman run -it list-channels-bot
+podman run -it list-channels-bot -e TOKEN=your_token_here
 ```
 
 ### Docker
 
 ```bash
-docker run -it list-channels-bot
+docker run -it list-channels-bot -e TOKEN=your_token_here
 ```
 
 ### Manual Install
@@ -45,7 +47,7 @@ docker run -it list-channels-bot
 Ensure you are in the `list-channels-bot` directory from before.
 
 ```
-node index.js
+TOKEN=your_token_here node index.js
 ```
 
 ## Command
