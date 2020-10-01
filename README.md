@@ -8,12 +8,6 @@ A very simple discord bot to list channels in a server
 
 Obtain your bot token from https://discord.com/developers/applications. This will be needed when running the bot.
 
-### Using [Podman](https://podman.io/) (recommended)
-
-```bash
-podman pull ghcr.io/yamboy1/list-channels-bot
-```
-
 ### Using [Docker](https://docker.com)
 
 ```bash
@@ -31,12 +25,6 @@ yarn
 ```
 
 ## Running the bot
-
-### Podman
-
-```bash
-podman run -it list-channels-bot -e TOKEN=your_token_here
-```
 
 ### Docker
 
